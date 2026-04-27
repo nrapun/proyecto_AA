@@ -1,5 +1,5 @@
 from ucimlrepo import fetch_ucirepo 
-  
+import pandas as pd 
 # fetch dataset 
 support2 = fetch_ucirepo(id=880) 
   
@@ -11,4 +11,4 @@ y = support2.data.targets
 print(support2.metadata) 
   
 # variable information 
-print(support2.variables) 
+print(support2.variables)
